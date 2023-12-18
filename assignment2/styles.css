@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #e0e6ea;
+}
+nav > div {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+nav > div > p {
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.mainContent {
+  /* height: 500px; */
+  width: 850px;
+
+  display: flex;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05),
+    0px 15px 35px 0px rgba(43, 64, 78, 0.1);
+}
+.mainContentLeft {
+  width: 65%;
+  padding-bottom: 30px;
+}
+.mainContentRight {
+  width: 35%;
+  background-color: #1179bf;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mainContentLeft > h1 {
+  color: #1d2c3c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+}
+.formDiv {
+  margin-top: 20;
+  border-top: 2px solid #f5f7fa;
+  border-bottom: 2px solid #f5f7fa;
+  padding-bottom: 30px;
+}
+.formDivInner,
+.cardDivInner {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+button {
+  border-radius: 5px;
+  background: #038e7d;
+  color: white;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.396px;
+}
+.buttonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.cardDiv {
+  border-bottom: 2px solid #f5f7fa;
+  padding-bottom: 30px;
+}
+.info {
+  color: #1d2c3c;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.16px;
+}
+.infoDiv {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.number {
+  color: #1179bf;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #1179bf;
+  border-radius: 50%;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.emailDiv > input {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #edeff2;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  margin-top: 5px;
+}
+.emailDiv {
+  margin-top: 10px;
+}
+hr {
+}
+.inputDivContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.inputDiv {
+  width: 48%;
+}
+.inputDiv > input {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #edeff2;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-top: 5px;
+}
+.inputDiv > input:focus,
+.emailDiv > input:focus {
+  border: 2px solid #1179bf;
+}
+label {
+  color: #1d2c3c;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.creditCardInputDiv {
+  display: flex;
+  align-items: center;
+}
+.creditCardInputDiv > input {
+  border: none;
+  outline: none;
+
+  background: #edeff2;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-top: 5px;
+}
+
+.leftCreditCard {
+  width: 280px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.leftCreditCard:focus,
+.rightCreditCard:focus {
+  border: 1.5px solid #1179bf;
+}
+.rightCreditCard {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.contactP {
+  margin: 0;
+  margin-left: 10px;
+  width: 300px;
+}
+.supportMain {
+  text-decoration: underline;
+}
+.contactP > span {
+  color: #646e7a;
+}
+.automatic {
+  color: #fff;
+  width: 180px;
+
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.008px;
+  margin-bottom: 30px;
+}
+.freelancer {
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01px;
+}
+.price {
+  color: #fff;
+
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.015px;
+  margin-bottom: 15px;
+}
+.checkMarkDiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checkMarkDiv > p {
+  color: #fff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.008px;
+  margin: 0;
+}
+.need {
+  color: white;
+  width: 190px;
+  margin-top: 40px;
+}
+.lastLine {
+  margin-top: 30px;
+}
+.pusher {
+  color: white;
+}
+.kirkDiv {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.kirkDiv > img {
+  border-radius: 50%;
+}
+.kirkDiv > p {
+  color: white;
+}
+.price {
+  position: relative;
+}
+.year {
+  font-size: 20px;
+}
+.account{
+  border-radius: 6px;
+border: 2px solid #646E7A;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 20px;
+padding-right: 20px;
+}
+@media(min-width:1581px){
+main{
+  height: calc(100vh - 170px);
+
+}
+}
